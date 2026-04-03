@@ -289,9 +289,8 @@ export function RouteStatistics({ route, dem, mapRef, onExport }: RouteStatistic
               </Button>
             )}
           </div>
-        </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4 p-3 rounded-lg bg-secondary/30 border border-border/30">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4 p-3 rounded-lg bg-secondary/30 border border-border/30">
           <div className="flex flex-col gap-1">
             <div className="flex items-center gap-1.5">
               <Ruler className="w-3 h-3 text-blue-400" />
